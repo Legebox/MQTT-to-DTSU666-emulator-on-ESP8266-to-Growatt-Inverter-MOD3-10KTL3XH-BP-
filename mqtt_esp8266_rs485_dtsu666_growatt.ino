@@ -54,9 +54,7 @@ unsigned long lastReconnectAttempt = 0;
 unsigned long lastStatusUpdate = 0;
 const unsigned long STATUS_UPDATE_INTERVAL = 60000;  // 1 minute
 
-// DTSU666 Modbus register map - Updated with correct registers
-
-// DTSU666 Configuration Registers
+// DTSU666 Modbus RTU Configuration Registers
 #define REG_CT_RATIO          0x0006  // Current Transformer Ratio (IrAt)
 #define REG_PT_RATIO          0x0007  // Voltage Transformer Ratio (UrAt)
 
@@ -94,7 +92,7 @@ const unsigned long STATUS_UPDATE_INTERVAL = 60000;  // 1 minute
 #define REG_POWER_FACTOR_C     0x2030  // C phase power factor PFc
 
 // Frequency
-#define REG_FREQUENCY         0x2044  // Frequency (Hz)
+#define REG_FREQUENCY          0x2044  // Frequency (Hz)
 
 // Energy
 #define REG_FORWARD_ACTIVE_ENERGY_TOTAL 0x101E  // Total Forward active energy (kWh)
@@ -384,7 +382,7 @@ int rs485Receive(byte* buffer, int maxLength, unsigned long timeout) {
   // Ensure RS485 is in receive mode
   digitalWrite(RS485_DIR_PIN, RS485_RECEIVE);
   
-  // Wait for data with timeout
+  // Wait for data
   unsigned long startTime = millis();
   int bytesRead = 0;
   
@@ -440,14 +438,14 @@ uint16_t calculateModbusCRC(byte* data, int length) {
 // Initialize meter values with defaults
 void initializeMeterValues() {
   // Line Voltages
-  meterValues.voltageAB = 380.0;
-  meterValues.voltageBC = 380.0;
-  meterValues.voltageCA = 380.0;
+  meterValues.voltageAB = 400.0;
+  meterValues.voltageBC = 400.0;
+  meterValues.voltageCA = 400.0;
   
   // Phase Voltages
-  meterValues.voltageA = 220.0;
-  meterValues.voltageB = 220.0;
-  meterValues.voltageC = 220.0;
+  meterValues.voltageA = 230.0;
+  meterValues.voltageB = 230.0;
+  meterValues.voltageC = 230.0;
   
   // Phase Currents
   meterValues.currentA = 0.0;
