@@ -806,8 +806,8 @@ int processDTSU666ModbusRequest(byte* request, int requestLength, byte* response
   uint16_t startAddress = (request[2] << 8) | request[3];
   uint16_t quantity = (request[4] << 8) | request[5];
   
-  // Function code 0x03 (Read Holding Registers) and 0x04 (Read Input Registers)
-  if (functionCode == 0x03 || functionCode == 0x04) {
+  // Function code 0x03 (Read Holding Registers)
+  if (functionCode == 0x03) {
     response[0] = slaveAddress;
     response[1] = functionCode;
     
