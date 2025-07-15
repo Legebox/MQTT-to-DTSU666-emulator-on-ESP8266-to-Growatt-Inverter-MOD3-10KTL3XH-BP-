@@ -1,0 +1,166 @@
+21:29:08.010 -> ESP8266 MQTT to RS485 DTSU666 Emulator
+21:29:08.010 -> DTSU666 Slave Address: 4
+21:29:08.010 -> 
+21:29:08.010 -> Connecting to Wifinetwork
+21:29:08.580 -> .......
+21:29:12.320 -> WiFi connected
+21:29:12.320 -> IP address: 192.168.1.89
+21:29:12.320 -> Attempting MQTT connection...connected
+21:29:12.364 -> ESP8266 MQTT to RS485 DTSU666 Emulator initialized
+21:29:12.448 -> RS485 RX: 02 04 00 00 00 12 70 34 02 04 00 00 00 12 70 34 02 04 00 00 00 12 70 34 02 04 00 00 00 12 70 34 02 04 00 00 00 12 70 34 02 04 00 00 00 12 70 34 02 04 00 00 00 12 70 34 
+21:29:12.695 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:13.250 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:13.450 -> Message arrived [dtsu666/data] {"voltage_ab":406.2999878,"voltage_bc":404.1000061,"voltage_ca":405,"voltage_a":235.1000061,"voltage_b":234.1000061,"voltage_c":232.6000061,"current_a":0.963999987,"current_b":0.93599999,"current_c":0.578999996,"active_power_total":349.5,"active_power_a":212.1999969,"active_power_b":138.8000031,"active_power_c":-1.600000024,"reactive_power_total":-188.8999939,"reactive_power_a":22.70000076,"reactive_power_b":-93.40000153,"reactive_power_c":-118.3000031,"power_factor_total":0.60799998,"power_factor_a":0.936999977,"power_factor_b":0.651000023,"power_factor_c":-0.011,"frequency":50.00999832,"forward_active_energy_total":634.5,"reverse_active_energy_total":1746.77002}
+21:29:13.494 -> Meter values updated from MQTT
+21:29:13.818 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:14.413 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:14.498 -> Message arrived [dtsu666/data] {"voltage_ab":406.2999878,"voltage_bc":404.1000061,"voltage_ca":405,"voltage_a":235.1000061,"voltage_b":234.1000061,"voltage_c":232.6000061,"current_a":0.962000012,"current_b":0.931999981,"current_c":0.583000004,"active_power_total":351,"active_power_a":212.1000061,"active_power_b":140.5,"active_power_c":-1.600000024,"reactive_power_total":-190.6000061,"reactive_power_a":22.60000038,"reactive_power_b":-94.80000305,"reactive_power_c":-118.4000015,"power_factor_total":0.606000006,"power_factor_a":0.938000023,"power_factor_b":0.65200001,"power_factor_c":-0.01,"frequency":50.00999832,"forward_active_energy_total":634.5,"reverse_active_energy_total":1746.77002}
+21:29:14.590 -> Meter values updated from MQTT
+21:29:14.968 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:15.573 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:15.573 -> Message arrived [dtsu666/data] {"voltage_ab":406.3999939,"voltage_bc":404.2000122,"voltage_ca":405,"voltage_a":235.1000061,"voltage_b":234.1999969,"voltage_c":232.6000061,"current_a":0.962000012,"current_b":0.944000006,"current_c":0.579999983,"active_power_total":350.3999939,"active_power_a":212,"active_power_b":139.8000031,"active_power_c":-1.399999976,"reactive_power_total":-193.8999939,"reactive_power_a":23.20000076,"reactive_power_b":-99.19999695,"reactive_power_c":-118,"power_factor_total":0.603999972,"power_factor_a":0.93900001,"power_factor_b":0.638000011,"power_factor_c":-0.01,"frequency":50.00999832,"forward_active_energy_total":634.5,"reverse_active_energy_total":1746.77002}
+21:29:15.613 -> Meter values updated from MQTT
+21:29:16.250 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:16.551 -> Message arrived [dtsu666/data] {"voltage_ab":406.2999878,"voltage_bc":404.1000061,"voltage_ca":405,"voltage_a":235.1000061,"voltage_b":234.1000061,"voltage_c":232.6000061,"current_a":0.962000012,"current_b":0.941999972,"current_c":0.579999983,"active_power_total":352.1000061,"active_power_a":211.8999939,"active_power_b":141.5,"active_power_c":-1.299999952,"reactive_power_total":-192.8000031,"reactive_power_a":23.20000076,"reactive_power_b":-98.19999695,"reactive_power_c":-117.8000031,"power_factor_total":0.606000006,"power_factor_a":0.938000023,"power_factor_b":0.64200002,"power_factor_c":-0.009,"frequency":50.00999832,"forward_active_energy_total":634.5,"reverse_active_energy_total":1746.77002}
+21:29:16.592 -> Meter values updated from MQTT
+21:29:16.810 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:17.390 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:17.605 -> Message arrived [dtsu666/data] {"voltage_ab":406.2000122,"voltage_bc":404,"voltage_ca":404.7999878,"voltage_a":235,"voltage_b":234.1000061,"voltage_c":232.5,"current_a":0.962000012,"current_b":0.938000023,"current_c":0.579999983,"active_power_total":351.7999878,"active_power_a":211.8999939,"active_power_b":141.3000031,"active_power_c":-1.5,"reactive_power_total":-192.1000061,"reactive_power_a":23.70000076,"reactive_power_b":-98.5,"reactive_power_c":-117.4000015,"power_factor_total":0.610000014,"power_factor_a":0.938000023,"power_factor_b":0.651000023,"power_factor_c":-0.01,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:17.646 -> Meter values updated from MQTT
+21:29:18.040 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:18.640 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:18.640 -> Message arrived [dtsu666/data] {"voltage_ab":406.3999939,"voltage_bc":404.2000122,"voltage_ca":405,"voltage_a":235.1000061,"voltage_b":234.1999969,"voltage_c":232.6000061,"current_a":0.962000012,"current_b":0.936999977,"current_c":0.583000004,"active_power_total":350.5,"active_power_a":211.8999939,"active_power_b":140,"active_power_c":-1.399999976,"reactive_power_total":-195.1999969,"reactive_power_a":23.10000038,"reactive_power_b":-100.0999985,"reactive_power_c":-118.1999969,"power_factor_total":0.602999985,"power_factor_a":0.938000023,"power_factor_b":0.638000011,"power_factor_c":-0.011,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:18.759 -> Meter values updated from MQTT
+21:29:19.208 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:19.773 -> Message arrived [dtsu666/data] {"voltage_ab":406.5,"voltage_bc":404.2999878,"voltage_ca":405,"voltage_a":235.1000061,"voltage_b":234.3000031,"voltage_c":232.6000061,"current_a":0.962000012,"current_b":0.959999979,"current_c":0.58099997,"active_power_total":356.8999939,"active_power_a":212.3000031,"active_power_b":146.1000061,"active_power_c":-1.5,"reactive_power_total":-197.3000031,"reactive_power_a":23.20000076,"reactive_power_b":-102.4000015,"reactive_power_c":-118.0999985,"power_factor_total":0.606000006,"power_factor_a":0.93900001,"power_factor_b":0.643000007,"power_factor_c":-0.01,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:19.773 -> Meter values updated from MQTT
+21:29:19.857 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:20.385 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:20.792 -> Message arrived [dtsu666/data] {"voltage_ab":406.3999939,"voltage_bc":404.2000122,"voltage_ca":405,"voltage_a":235.1000061,"voltage_b":234.1999969,"voltage_c":232.6000061,"current_a":0.962000012,"current_b":0.949000001,"current_c":0.579999983,"active_power_total":355.3999939,"active_power_a":212.1000061,"active_power_b":144.8000031,"active_power_c":-1.5,"reactive_power_total":-195.3999939,"reactive_power_a":23.60000038,"reactive_power_b":-101.5,"reactive_power_c":-117.5,"power_factor_total":0.60799998,"power_factor_a":0.93900001,"power_factor_b":0.648000002,"power_factor_c":-0.01,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:20.833 -> Meter values updated from MQTT
+21:29:21.058 -> RS485 RX: 03 03 00 00 00 00 44 28 
+21:29:21.058 -> RS485 TX: 03 03 00 81 30 
+21:29:21.641 -> RS485 RX: 04 03 20 00 00 12 CE 52 
+21:29:21.685 -> RS485 TX: 04 03 24 43 CB 33 33 43 CA 19 9A 43 CA 80 00 43 6B 19 9A 43 6A 33 33 43 68 99 9A 3F 76 45 A2 3F 72 F1 AA 3F 14 7A E1 B1 E4 
+21:29:21.808 -> RS485 RX: 01 04 00 46 00 0A 91 D8 
+21:29:21.808 -> Message arrived [dtsu666/data] {"voltage_ab":406.2999878,"voltage_bc":404,"voltage_ca":404.8999939,"voltage_a":235.1000061,"voltage_b":234.1000061,"voltage_c":232.5,"current_a":0.962000012,"current_b":0.954999983,"current_c":0.579999983,"active_power_total":354.7000122,"active_power_a":211.8999939,"active_power_b":144.3000031,"active_power_c":-1.5,"reactive_power_total":-191.5,"reactive_power_a":23.20000076,"reactive_power_b":-96.80000305,"reactive_power_c":-118,"power_factor_total":0.606000006,"power_factor_a":0.938000023,"power_factor_b":0.643999994,"power_factor_c":-0.01,"frequency":50.02000046,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:21.855 -> Meter values updated from MQTT
+21:29:22.484 -> RS485 RX: 02 04 00 34 00 0C B1 F2 
+21:29:22.864 -> Message arrived [dtsu666/data] {"voltage_ab":406.2000122,"voltage_bc":404.1000061,"voltage_ca":404.8999939,"voltage_a":235,"voltage_b":234.1000061,"voltage_c":232.6000061,"current_a":0.962000012,"current_b":0.95599997,"current_c":0.578999996,"active_power_total":354.8999939,"active_power_a":211.8999939,"active_power_b":144.6000061,"active_power_c":-1.600000024,"reactive_power_total":-192.5,"reactive_power_a":23.70000076,"reactive_power_b":-98.80000305,"reactive_power_c":-117.4000015,"power_factor_total":0.609000027,"power_factor_a":0.938000023,"power_factor_b":0.647000015,"power_factor_c":-0.012,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:22.938 -> Meter values updated from MQTT
+21:29:23.020 -> RS485 RX: 03 03 00 00 00 00 44 28 
+21:29:23.062 -> RS485 TX: 03 03 00 81 30 
+21:29:23.648 -> RS485 RX: 04 03 20 12 00 10 EF 96 
+21:29:23.688 -> RS485 TX: 04 03 20 43 B1 73 33 43 53 E6 66 43 10 99 9A BF CC CC CD C3 40 80 00 41 BD 99 9A C2 C5 99 9A C2 EA CC CD A6 7B 
+21:29:23.775 -> RS485 RX: 01 04 00 00 00 0E 71 CE 
+21:29:23.895 -> Message arrived [dtsu666/data] {"voltage_ab":406.2000122,"voltage_bc":404.1000061,"voltage_ca":405,"voltage_a":235.1000061,"voltage_b":234.1000061,"voltage_c":232.6000061,"current_a":0.962000012,"current_b":0.949000001,"current_c":0.579999983,"active_power_total":354.3999939,"active_power_a":212.1000061,"active_power_b":143.8999939,"active_power_c":-1.700000048,"reactive_power_total":-195,"reactive_power_a":23.89999962,"reactive_power_b":-101.4000015,"reactive_power_c":-117.5999985,"power_factor_total":0.606999993,"power_factor_a":0.938000023,"power_factor_b":0.646000028,"power_factor_c":-0.012,"frequency":50.02000046,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:23.982 -> Meter values updated from MQTT
+21:29:24.448 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:25.038 -> RS485 RX: 03 03 00 00 00 00 44 28 
+21:29:25.082 -> RS485 TX: 03 03 00 81 30 
+21:29:25.082 -> Message arrived [dtsu666/data] {"voltage_ab":406.2999878,"voltage_bc":404.1000061,"voltage_ca":405,"voltage_a":235.1000061,"voltage_b":234.1000061,"voltage_c":232.6000061,"current_a":0.962000012,"current_b":0.943000019,"current_c":0.583999991,"active_power_total":347.7999878,"active_power_a":212.3999939,"active_power_b":137.6999969,"active_power_c":-2.400000095,"reactive_power_total":-192.6999969,"reactive_power_a":23.70000076,"reactive_power_b":-98.19999695,"reactive_power_c":-118.1999969,"power_factor_total":0.598999977,"power_factor_a":0.936999977,"power_factor_b":0.633000016,"power_factor_c":-0.017000001,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:25.125 -> Meter values updated from MQTT
+21:29:25.614 -> RS485 RX: 04 03 20 2A 00 1C 6E 5E 
+21:29:25.695 -> RS485 TX: 04 03 38 3A 1D 06 35 3A 75 A1 01 3A 25 EF E9 B7 8E 9B 39 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 42 48 0A 3D 5A 18 
+21:29:25.827 -> RS485 RX: 01 04 01 56 00 04 10 25 
+21:29:25.999 -> Message arrived [dtsu666/data] {"voltage_ab":406.2000122,"voltage_bc":404,"voltage_ca":404.7999878,"voltage_a":235,"voltage_b":234.1000061,"voltage_c":232.5,"current_a":0.963,"current_b":0.93599999,"current_c":0.588,"active_power_total":345.1000061,"active_power_a":212.1000061,"active_power_b":135.3999939,"active_power_c":-2.400000095,"reactive_power_total":-190.6999969,"reactive_power_a":23.89999962,"reactive_power_b":-97,"reactive_power_c":-118.0999985,"power_factor_total":0.592999995,"power_factor_a":0.938000023,"power_factor_b":0.616999984,"power_factor_c":-0.017000001,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:26.085 -> Meter values updated from MQTT
+21:29:26.481 -> RS485 RX: 02 04 00 46 00 0C 11 E9 
+21:29:26.960 -> Message arrived [dtsu666/data] {"voltage_ab":406.2000122,"voltage_bc":404,"voltage_ca":404.7999878,"voltage_a":235,"voltage_b":234.1000061,"voltage_c":232.5,"current_a":0.963999987,"current_b":0.935000002,"current_c":0.578999996,"active_power_total":344.5,"active_power_a":212.3000031,"active_power_b":134.6999969,"active_power_c":-2.5,"reactive_power_total":-190.1999969,"reactive_power_a":24.79999924,"reactive_power_b":-97.80000305,"reactive_power_c":-117.1999969,"power_factor_total":0.593999982,"power_factor_a":0.936999977,"power_factor_b":0.616999984,"power_factor_c":-0.017999999,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:27.048 -> Meter values updated from MQTT
+21:29:27.135 -> RS485 RX: 03 03 00 00 00 00 44 28 
+21:29:27.135 -> RS485 TX: 03 03 00 81 30 
+21:29:27.653 -> RS485 RX: 04 03 20 12 00 10 EF 96 
+21:29:27.696 -> RS485 TX: 04 03 20 43 AC 40 00 43 54 4C CD 43 06 B3 33 C0 20 00 00 C3 3E 33 33 41 C6 66 66 C2 C3 99 9A C2 EA 66 66 F2 53 
+21:29:27.814 -> RS485 RX: 01 04 00 00 00 0E 71 CE 
+21:29:28.003 -> Message arrived [dtsu666/data] {"voltage_ab":406.2999878,"voltage_bc":404.1000061,"voltage_ca":405,"voltage_a":235,"voltage_b":234.1000061,"voltage_c":232.6000061,"current_a":0.964999974,"current_b":0.930999994,"current_c":0.58099997,"active_power_total":347.2999878,"active_power_a":212.3999939,"active_power_b":137.5,"active_power_c":-2.700000048,"reactive_power_total":-194.5,"reactive_power_a":24.89999962,"reactive_power_b":-102,"reactive_power_c":-117.4000015,"power_factor_total":0.59799999,"power_factor_a":0.938000023,"power_factor_b":0.628000021,"power_factor_c":-0.018999999,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:28.046 -> Meter values updated from MQTT
+21:29:28.480 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:29.078 -> RS485 RX: 03 03 20 00 00 10 4E 24 
+21:29:29.122 -> RS485 TX: 03 03 20 43 CB 26 66 43 CA 0C CD 43 CA 80 00 43 6B 00 00 43 6A 19 9A 43 68 99 9A 3F 77 0A 3D 3F 6E 56 04 DC FF 
+21:29:29.122 -> Message arrived [dtsu666/data] {"voltage_ab":406.2000122,"voltage_bc":404.1000061,"voltage_ca":404.8999939,"voltage_a":235,"voltage_b":234.1000061,"voltage_c":232.6000061,"current_a":0.963999987,"current_b":0.920000017,"current_c":0.583999991,"active_power_total":342.2999878,"active_power_a":212.5,"active_power_b":136.3000031,"active_power_c":-2.799999952,"reactive_power_total":-195.8000031,"reactive_power_a":22.39999962,"reactive_power_b":-98.30000305,"reactive_power_c":-120,"power_factor_total":0.592999995,"power_factor_a":0.936999977,"power_factor_b":0.623000026,"power_factor_c":-0.02,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:29.169 -> Meter values updated from MQTT
+21:29:29.292 -> RS485 RX: 04 03 20 12 00 10 EF 96 
+21:29:29.339 -> RS485 TX: 04 03 20 43 AB 26 66 43 54 80 00 43 08 4C CD C0 33 33 33 C3 43 CC CD 41 B3 33 33 C2 C4 99 9A C2 F0 00 00 D3 31 
+21:29:29.427 -> RS485 RX: 01 04 00 00 00 0E 71 CE 
+21:29:30.023 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:30.146 -> Message arrived [dtsu666/data] {"voltage_ab":406.1000061,"voltage_bc":404,"voltage_ca":404.7000122,"voltage_a":234.8999939,"voltage_b":234.1000061,"voltage_c":232.5,"current_a":0.963999987,"current_b":0.949999988,"current_c":0.579999983,"active_power_total":350.7999878,"active_power_a":212.1000061,"active_power_b":141.3000031,"active_power_c":-2.599999905,"reactive_power_total":-192.3000031,"reactive_power_a":24.70000076,"reactive_power_b":-99.19999695,"reactive_power_c":-117.8000031,"power_factor_total":0.601000011,"power_factor_a":0.936999977,"power_factor_b":0.637000024,"power_factor_c":-0.018999999,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:30.190 -> Meter values updated from MQTT
+21:29:30.575 -> RS485 RX: 03 03 00 00 00 00 
+21:29:30.705 -> RS485 RX: 44 28 
+21:29:31.172 -> Message arrived [dtsu666/data] {"voltage_ab":406.1000061,"voltage_bc":404,"voltage_ca":404.6000061,"voltage_a":234.8999939,"voltage_b":234.1000061,"voltage_c":232.3999939,"current_a":0.963999987,"current_b":0.93900001,"current_c":0.586000025,"active_power_total":351.3999939,"active_power_a":212.5,"active_power_b":141.6000061,"active_power_c":-2.700000048,"reactive_power_total":-195.3000031,"reactive_power_a":23.20000076,"reactive_power_b":-99.30000305,"reactive_power_c":-119.1999969,"power_factor_total":0.601999998,"power_factor_a":0.938000023,"power_factor_b":0.64200002,"power_factor_c":-0.018999999,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:31.261 -> Meter values updated from MQTT
+21:29:31.863 -> RS485 RX: 18 FF 
+21:29:32.171 -> Message arrived [dtsu666/data] {"voltage_ab":406.1000061,"voltage_bc":404,"voltage_ca":404.6000061,"voltage_a":234.8999939,"voltage_b":234.1000061,"voltage_c":232.3999939,"current_a":0.963999987,"current_b":0.954999983,"current_c":0.583000004,"active_power_total":353.6000061,"active_power_a":212.1999969,"active_power_b":144.1000061,"active_power_c":-2.700000048,"reactive_power_total":-191.6999969,"reactive_power_a":24.79999924,"reactive_power_b":-98.90000153,"reactive_power_c":-117.5,"power_factor_total":0.605000019,"power_factor_a":0.936999977,"power_factor_b":0.646000028,"power_factor_c":-0.02,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:32.205 -> Meter values updated from MQTT
+21:29:33.004 -> RS485 RX: 28 
+21:29:33.222 -> Message arrived [dtsu666/data] {"voltage_ab":406.2000122,"voltage_bc":404,"voltage_ca":404.7000122,"voltage_a":235,"voltage_b":234.1000061,"voltage_c":232.3999939,"current_a":0.966000021,"current_b":0.944999993,"current_c":0.592000008,"active_power_total":351,"active_power_a":212.5,"active_power_b":141.3999939,"active_power_c":-2.799999952,"reactive_power_total":-197.1999969,"reactive_power_a":22.89999962,"reactive_power_b":-100.5,"reactive_power_c":-119.6999969,"power_factor_total":0.601999998,"power_factor_a":0.938000023,"power_factor_b":0.643000007,"power_factor_c":-0.02,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:33.258 -> Meter values updated from MQTT
+21:29:33.686 -> RS485 RX: FE 
+21:29:34.292 -> RS485 RX: 2A FA 
+21:29:34.292 -> Message arrived [dtsu666/data] {"voltage_ab":406.2000122,"voltage_bc":404,"voltage_ca":404.7000122,"voltage_a":235,"voltage_b":234.1000061,"voltage_c":232.3999939,"current_a":0.963999987,"current_b":0.93900001,"current_c":0.591000021,"active_power_total":348.2999878,"active_power_a":212.5,"active_power_b":138.6000061,"active_power_c":-2.799999952,"reactive_power_total":-199.6999969,"reactive_power_a":22,"reactive_power_b":-101.3000031,"reactive_power_c":-120.4000015,"power_factor_total":0.596000016,"power_factor_a":0.93900001,"power_factor_b":0.648999989,"power_factor_c":-0.017999999,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:34.336 -> Meter values updated from MQTT
+21:29:34.871 -> RS485 RX: 13 04 
+21:29:35.323 -> Message arrived [dtsu666/data] {"voltage_ab":406.1000061,"voltage_bc":404,"voltage_ca":404.6000061,"voltage_a":234.8999939,"voltage_b":234.1000061,"voltage_c":232.3999939,"current_a":0.963999987,"current_b":0.949999988,"current_c":0.588999987,"active_power_total":350.5,"active_power_a":212.3999939,"active_power_b":140.5,"active_power_c":-2.400000095,"reactive_power_total":-201.1999969,"reactive_power_a":22.60000038,"reactive_power_b":-104.1999969,"reactive_power_c":-119.5999985,"power_factor_total":0.598999977,"power_factor_a":0.938000023,"power_factor_b":0.633000016,"power_factor_c":-0.017000001,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:35.407 -> Meter values updated from MQTT
+21:29:35.495 -> RS485 RX: 91 FE 
+21:29:35.976 -> RS485 RX: D7 FF 
+21:29:36.401 -> Message arrived [dtsu666/data] {"voltage_ab":406.1000061,"voltage_bc":404,"voltage_ca":404.6000061,"voltage_a":234.8999939,"voltage_b":234.1000061,"voltage_c":232.3999939,"current_a":0.966000021,"current_b":0.944000006,"current_c":0.583999991,"active_power_total":350.7000122,"active_power_a":212.8000031,"active_power_b":140.5,"active_power_c":-2.5,"reactive_power_total":-196.1000061,"reactive_power_a":24,"reactive_power_b":-102,"reactive_power_c":-118.1999969,"power_factor_total":0.601000011,"power_factor_a":0.938000023,"power_factor_b":0.635999978,"power_factor_c":-0.017999999,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:36.445 -> Meter values updated from MQTT
+21:29:36.650 -> RS485 RX: FF 
+21:29:37.358 -> Message arrived [dtsu666/data] {"voltage_ab":406.1000061,"voltage_bc":404,"voltage_ca":404.7000122,"voltage_a":234.8999939,"voltage_b":234.1000061,"voltage_c":232.5,"current_a":0.964999974,"current_b":0.934000015,"current_c":0.582000017,"active_power_total":350.1000061,"active_power_a":212.3999939,"active_power_b":140.1999969,"active_power_c":-2.400000095,"reactive_power_total":-188.6999969,"reactive_power_a":24.79999924,"reactive_power_b":-96.19999695,"reactive_power_c":-117.3000031,"power_factor_total":0.606000006,"power_factor_a":0.938000023,"power_factor_b":0.647000015,"power_factor_c":-0.017999999,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:37.444 -> Meter values updated from MQTT
+21:29:37.807 -> RS485 RX: A9 15 
+21:29:38.400 -> RS485 RX: F5 
+21:29:38.444 -> Message arrived [dtsu666/data] {"voltage_ab":406.1000061,"voltage_bc":404,"voltage_ca":404.6000061,"voltage_a":234.8999939,"voltage_b":234.1000061,"voltage_c":232.3999939,"current_a":0.967000008,"current_b":0.947000027,"current_c":0.586000025,"active_power_total":353,"active_power_a":212.8000031,"active_power_b":142.8000031,"active_power_c":-2.599999905,"reactive_power_total":-194.3999939,"reactive_power_a":23.60000038,"reactive_power_b":-99.5,"reactive_power_c":-118.5,"power_factor_total":0.603999972,"power_factor_a":0.936999977,"power_factor_b":0.654999971,"power_factor_c":-0.017999999,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:38.484 -> Meter values updated from MQTT
+21:29:39.089 -> RS485 RX: D5 E1 
+21:29:39.478 -> Message arrived [dtsu666/data] {"voltage_ab":406.2000122,"voltage_bc":404,"voltage_ca":404.7999878,"voltage_a":235,"voltage_b":234.1000061,"voltage_c":232.5,"current_a":0.966000021,"current_b":0.959999979,"current_c":0.577000022,"active_power_total":352,"active_power_a":212.6999969,"active_power_b":141.8000031,"active_power_c":-2.5,"reactive_power_total":-190.1999969,"reactive_power_a":25.20000076,"reactive_power_b":-98.59999847,"reactive_power_c":-116.8000031,"power_factor_total":0.598999977,"power_factor_a":0.936999977,"power_factor_b":0.625999987,"power_factor_c":-0.017999999,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:39.561 -> Meter values updated from MQTT
+21:29:39.650 -> RS485 RX: 09 
+21:29:40.259 -> RS485 RX: 14 FF 
+21:29:40.559 -> Message arrived [dtsu666/data] {"voltage_ab":406.2000122,"voltage_bc":404,"voltage_ca":404.7999878,"voltage_a":235,"voltage_b":234.1000061,"voltage_c":232.5,"current_a":0.968999982,"current_b":0.966000021,"current_c":0.583000004,"active_power_total":343,"active_power_a":203.5,"active_power_b":141.8999939,"active_power_c":-2.5,"reactive_power_total":-201.1000061,"reactive_power_a":20.29999924,"reactive_power_b":-102.4000015,"reactive_power_c":-119,"power_factor_total":0.591000021,"power_factor_a":0.930000007,"power_factor_b":0.630999982,"power_factor_c":-0.017999999,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:40.598 -> Meter values updated from MQTT
+21:29:40.780 -> RS485 RX: 50 24 FC 
+21:29:41.300 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:41.381 -> RS485 RX: 02 04 00 00 00 12 70 34 
+21:29:41.613 -> Message arrived [dtsu666/data] {"voltage_ab":406.2999878,"voltage_bc":404,"voltage_ca":404.8999939,"voltage_a":235.1000061,"voltage_b":234.1000061,"voltage_c":232.5,"current_a":0.763000011,"current_b":0.954999983,"current_c":0.583000004,"active_power_total":300.2999878,"active_power_a":162.8000031,"active_power_b":139.8000031,"active_power_c":-2.299999952,"reactive_power_total":-208.6999969,"reactive_power_a":7.099999905,"reactive_power_b":-98.40000153,"reactive_power_c":-117.4000015,"power_factor_total":0.552999973,"power_factor_a":0.899999976,"power_factor_b":0.624000013,"power_factor_c":-0.017000001,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:41.659 -> Meter values updated from MQTT
+21:29:42.072 -> RS485 RX: 03 03 20 00 00 10 4E 24 
+21:29:42.119 -> RS485 TX: 03 03 20 43 CB 26 66 43 CA 00 00 43 CA 73 33 43 6B 19 9A 43 6A 19 9A 43 68 80 00 3F 43 53 F8 3F 74 7A E1 FC D7 
+21:29:42.204 -> RS485 RX: 04 03 20 12 00 10 EF 96 
+21:29:42.247 -> RS485 TX: 04 03 20 43 96 26 66 43 22 CC CD 43 0B CC CD C0 13 33 33 C3 50 B3 33 40 E3 33 33 C2 C4 CC CD C2 EA CC CD 48 A4 
+21:29:42.376 -> RS485 RX: 04 03 20 00 00 12 CE 52 
+21:29:42.420 -> RS485 TX: 04 03 24 43 CB 26 66 43 CA 00 00 43 CA 73 33 43 6B 19 9A 43 6A 19 9A 43 68 80 00 3F 43 53 F8 3F 74 7A E1 3F 15 3F 7D 07 2D 
+21:29:42.498 -> RS485 RX: 04 03 20 12 00 10 EF 96 
+21:29:42.545 -> RS485 TX: 04 03 20 43 96 26 66 43 22 CC CD 43 0B CC CD C0 13 33 33 C3 50 B3 33 40 E3 33 33 C2 C4 CC CD C2 EA CC CD 48 A4 
+21:29:42.673 -> RS485 RX: 04 03 20 2A 00 1C 6E 5E 
+21:29:42.720 -> RS485 TX: 04 03 38 3A 10 F7 33 3A 6B ED FA 3A 23 93 EF B7 8E 9B 39 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 42 48 0A 3D A8 09 
+21:29:42.765 -> Message arrived [dtsu666/data] {"voltage_ab":406.2999878,"voltage_bc":404,"voltage_ca":404.8999939,"voltage_a":235.1000061,"voltage_b":234.1000061,"voltage_c":232.5,"current_a":0.754999995,"current_b":0.958000004,"current_c":0.582000017,"active_power_total":300.7999878,"active_power_a":159.6999969,"active_power_b":143.1999969,"active_power_c":-2.099999905,"reactive_power_total":-207.8000031,"reactive_power_a":6.300000191,"reactive_power_b":-96,"reactive_power_c":-118.0999985,"power_factor_total":0.559000015,"power_factor_a":0.901000023,"power_factor_b":0.643000007,"power_factor_c":-0.017999999,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:42.805 -> Meter values updated from MQTT
+21:29:42.937 -> RS485 RX: 04 03 20 12 00 10 EF 96 
+21:29:42.937 -> RS485 TX: 04 03 20 43 96 66 66 43 1F B3 33 43 0F 33 33 C0 06 66 66 C3 4F CC CD 40 C9 99 9A C2 C0 00 00 C2 EC 33 33 15 1B 
+21:29:43.064 -> RS485 RX: 04 03 10 1E 00 0C 21 5C 
+21:29:43.111 -> RS485 TX: 04 03 18 00 09 AE 8E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 1A A7 52 A9 D5 
+21:29:43.189 -> RS485 RX: 04 03 20 12 00 10 EF 96 
+21:29:43.233 -> RS485 TX: 04 03 20 43 96 66 66 43 1F B3 33 43 0F 33 33 C0 06 66 66 C3 4F CC CD 40 C9 99 9A C2 C0 00 00 C2 EC 33 33 15 1B 
+21:29:43.361 -> RS485 RX: 04 03 00 06 00 02 24 5F 
+21:29:43.361 -> RS485 TX: 04 03 04 00 0A 00 01 4E F1 
+21:29:43.485 -> RS485 RX: 04 03 20 12 00 10 EF 96 
+21:29:43.529 -> RS485 TX: 04 03 20 43 96 66 66 43 1F B3 33 43 0F 33 33 C0 06 66 66 C3 4F CC CD 40 C9 99 9A C2 C0 00 00 C2 EC 33 33 15 1B 
+21:29:43.613 -> RS485 RX: 04 03 20 00 00 12 CE 52 
+21:29:43.657 -> RS485 TX: 04 03 24 43 CB 26 66 43 CA 00 00 43 CA 73 33 43 6B 19 9A 43 6A 19 9A 43 68 80 00 3F 41 47 AE 3F 75 3F 7D 3F 14 FD F4 94 39 
+21:29:43.701 -> Message arrived [dtsu666/data] {"voltage_ab":406.2999878,"voltage_bc":404.1000061,"voltage_ca":405,"voltage_a":235.1000061,"voltage_b":234.1000061,"voltage_c":232.6000061,"current_a":0.755999982,"current_b":0.971000016,"current_c":0.579999983,"active_power_total":303,"active_power_a":159.8999939,"active_power_b":145.3999939,"active_power_c":-2.299999952,"reactive_power_total":-213.1999969,"reactive_power_a":6.599999905,"reactive_power_b":-101.8000031,"reactive_power_c":-117.9000015,"power_factor_total":0.56400001,"power_factor_a":0.901000023,"power_factor_b":0.647000015,"power_factor_c":-0.016000001,"frequency":50.00999832,"forward_active_energy_total":634.5100098,"reverse_active_energy_total":1746.77002}
+21:29:43.745 -> Meter values updated from MQTT
+21:29:43.831 -> RS485 RX: 04 03 20 12 00 10 EF 96 
+21:29:43.874 -> RS485 TX: 04 03 20 43 97 80 00 43 1F E6 66 43 11 66 66 C0 13 33 33 C3 55 33 33 40 D3 33 33 C2 CB 99 9A C2 EB CC CD E4 DD 
+21:29:44.083 -> RS485 RX: 04 03 20 2A 00 1C 6E 5E 
+21:29:44.166 -> RS485 TX: 04 03 38 3A 13 D9 66 3A 6C 31 17 3A 29 9B 70 B7 86 37 BD 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 42 48 0A 3D BB 38 
+21:29:44.247 -> RS485 RX: 04 03 20 12 00 10 EF 96 
+21:29:44.333 -> RS485 TX: 04 03 20 43 97 80 00 43 1F E6 66 43 11 66 66 C0 13 33 33 C3 55 33 33 40 D3 33 33 C2 CB 99 9A C2 EB CC CD E4 DD 
+21:29:44.426 -> RS485 RX: 04 03 10 1E 00 0C 21 5C 
+21:29:44.469 -> RS485 TX: 04 03 18 00 09 AE 8E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 1A A7 52 A9 D5 
+21:29:44.561 -> RS485 RX: 04 03 20 12 00 10 EF 96 
+21:29:44.605 -> RS485 TX: 04 03 20 43 97 80 00 43 1F E6 66 43 11 66 66 C0 13 33 33 C3 55 33 33 40 D3 33 33 C2 CB 99 9A C2 EB CC CD E4 DD 
+21:29:44.690 -> RS485 RX: 04 03 00 06 00 02 24 5F 
+21:29:44.734 -> RS485 TX: 04 03 04 00 0A 00 01 4E F1 
