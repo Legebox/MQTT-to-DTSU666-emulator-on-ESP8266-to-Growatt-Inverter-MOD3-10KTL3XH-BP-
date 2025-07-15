@@ -791,6 +791,14 @@ int processDTSU666ModbusRequest(byte* request, int requestLength, byte* response
   if (requestLength < 8) {
     return 0;  // Invalid request, too short
   }
+    
+  // Extract slave address from request
+  byte slaveAddress = request[0];
+  
+  // Only respond to our specific slave address (4)
+  if (slaveAddress != DTSU666_SLAVE_ADDRESS) {
+    return 0;  // Not for us, ignore
+  }
   
   // Calculate and verify CRC
   uint16_t receivedCRC = (request[requestLength-1] << 8) | request[requestLength-2];
@@ -801,7 +809,6 @@ int processDTSU666ModbusRequest(byte* request, int requestLength, byte* response
   }
   
   // Extract request parameters
-  byte slaveAddress = request[0];
   byte functionCode = request[1];
   uint16_t startAddress = (request[2] << 8) | request[3];
   uint16_t quantity = (request[4] << 8) | request[5];
