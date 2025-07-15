@@ -7,3 +7,4 @@ In this way the DTSU666 values can be used in a home automation system but are a
 Connecting an DTSU666, ESP8266 and inverter to the same Modbus RTU line didn't work out because the MAX485 use 3.3 V and the inverter 4.8 V.
 
 Set Growatt holding register 122 from 0 to 1 to enable polling of the emulator.
+In the display is now a new menu PM visible with the actual power (can be a negative or positive number).
